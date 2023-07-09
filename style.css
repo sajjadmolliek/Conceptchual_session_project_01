@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo > img{
+    width: 40%;
+    padding: 4%;
+    
+}
+.nav_bar{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    
+}
+.head-link a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    
+}
+.head-link>ul{
+    display: flex;
+    padding-top: 20%;
+    
+}
+.head-link>ul>li{
+    margin-left: 20%;
+}
+.banner{
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    justify-content: space-around;
+    height: 750px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url('images/background.png');
+}
+.banner-pic>img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 20%;
+    
+}
+.head-banner{
+    position: relative;
+    top: 30%;
+}
+.head-banner h1{
+    font-size: 60px;
+}
+.head-banner p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.head-banner button{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #f72a06;
+    border-radius: 5px;
+}
+.about{
+    color: black;
+    
+}
+.about h1{
+    text-align: center;
+    font-size: 45px;
+    
+}
+.flex-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.img>img{
+    height: 300px;
+    width: 300px;
+}
+.hedding-div h3{
+    font-size: 25px;
+}
+.hedding-div{
+    height: auto;
+    width: 520px;
+}
+.hedding-div .bttn{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #f72a06;
+    border-radius: 5px;
+}
